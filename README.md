@@ -15,7 +15,7 @@ You will also see any lint errors in the console.
 
 #### `APIs Used`
 
-FourSquare API
+FourSquare API.<br>
 GoogleMaps APIs
 
 
