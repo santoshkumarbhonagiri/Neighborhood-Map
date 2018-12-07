@@ -5,13 +5,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## How to run the app in developer mode:
+1. Download this repo
+2. Run: npm install in working directory
+3. Install Dependances (see Dependances)
+4. Run npm start to initialize.
+A new browser window will initialize and display the app. In case it doesn't, navigate to http://localhost:3000/ in your browser
+
 ### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
 #### `APIs Used`
 
