@@ -18,5 +18,7 @@ You will also see any lint errors in the console.
 FourSquare API.<br>
 GoogleMaps APIs
 
+## SERVICE WORKER
 
+Service worker is used to make the application run when your device is in offline mode. 
 
