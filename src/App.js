@@ -204,10 +204,8 @@ class App extends Component {
                         var location_data = data.response.venues[0];
                         var verified = '<b>Verified Location: </b>' + (location_data.verified ? 'Yes' : 'No') + '<br>';
                         var checkinsCount = '<b>Number of CheckIn: </b>' + location_data.stats.checkinsCount + '<br>';
-                        var usersCount = '<b>Number of Users: </b>' + location_data.stats.usersCount + '<br>';
-                        var tipCount = '<b>Number of Tips: </b>' + location_data.stats.tipCount + '<br>';
-                    var readMore = '<a href="https://foursquare.com/v/'+ location_data.id +'" target="_blank">Read More on Foursquare Website</a>'
-                      self.state.infowindow.setContent(checkinsCount + usersCount + tipCount + verified + readMore);
+                       var readMore = '<a href="https://foursquare.com/v/'+ location_data.id +'" target="_blank">Read More on Foursquare Website</a>'
+                      self.state.infowindow.setContent(checkinsCount + verified + readMore);
                     });
 
                 }
